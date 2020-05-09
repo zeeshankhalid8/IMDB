@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MalwareBytes" duration-ms="7907" started-at="2020-05-09T17:07:10Z" finished-at="2020-05-09T17:07:18Z">
+    <groups>
+    </groups>
+    <test name="MalwareBytes test" duration-ms="7907" started-at="2020-05-09T17:07:10Z" finished-at="2020-05-09T17:07:18Z">
+      <class name="Tests.IMDb250_test">
+        <test-method status="PASS" signature="readyBrowser()[pri:0, instance:Tests.IMDb250_test@5d624da6]" name="readyBrowser" is-config="true" duration-ms="2175" started-at="2020-05-09T17:07:08Z" finished-at="2020-05-09T17:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readyBrowser -->
+        <test-method status="PASS" signature="CheckPageEssentials()[pri:0, instance:Tests.IMDb250_test@5d624da6]" name="CheckPageEssentials" duration-ms="1023" started-at="2020-05-09T17:07:11Z" description="Function to check if the page is loaded and title is correct" finished-at="2020-05-09T17:07:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckPageEssentials -->
+        <test-method status="PASS" signature="checkChartHeadingsAndBody()[pri:1, instance:Tests.IMDb250_test@5d624da6]" name="checkChartHeadingsAndBody" duration-ms="1264" started-at="2020-05-09T17:07:12Z" description="Function to check headings and body text" finished-at="2020-05-09T17:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkChartHeadingsAndBody -->
+        <test-method status="PASS" signature="sortIMDb250Movies()[pri:2, instance:Tests.IMDb250_test@5d624da6]" name="sortIMDb250Movies" duration-ms="613" started-at="2020-05-09T17:07:13Z" description="Function to sort IMDb 250 movies chart" finished-at="2020-05-09T17:07:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortIMDb250Movies -->
+        <test-method status="PASS" signature="shareOnTwitter()[pri:3, instance:Tests.IMDb250_test@5d624da6]" name="shareOnTwitter" duration-ms="4984" started-at="2020-05-09T17:07:13Z" description="Function to share Top 250 movies" finished-at="2020-05-09T17:07:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareOnTwitter -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.IMDb250_test@5d624da6]" name="tearDown" is-config="true" duration-ms="323" started-at="2020-05-09T17:07:18Z" finished-at="2020-05-09T17:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.IMDb250_test -->
+    </test> <!-- MalwareBytes test -->
+  </suite> <!-- MalwareBytes -->
+</testng-results>
